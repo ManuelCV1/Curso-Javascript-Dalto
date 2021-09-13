@@ -1,0 +1,56 @@
+Console :
+
+Funciones de Registro : 
+
+- assert() : aparece un mensaje de error en la consola si la afirmación es falsa. Si la afirmacion es verdadera , no aparecerá nada. (No estandar)
+
+- clear() : limpia la consola
+
+- error() : Muestra un mensaje de error
+
+- info() : envia un mensaje informativo a la consola. En Firefox y Crhome se muestra un pequeño icono "i" junto a estos elementos en el registro de consola web.
+
+- log() : funciona exactamente igual que info , pero se enfoca más para depuración
+
+- table() : recibe como parametro un array u objeto y genera en consola una tabla con los datos
+
+- warn() : imprime un mensaje de advertencia en la consola web
+
+- dir() : despliega en consola un lista del elemento recibido como parametro , similar a la que despliega info o log . (No estandar)log
+
+
+
+Funciones de Conteo: 
+
+- count() : registra el numero de veces que se llama a count. Esta herramienta sirve mas que todo a los desarrolladores para llevar controles, etc... 
+
+
+- countReset() : reinicia el contador console.count()
+
+
+
+Funciones de Agrupación:
+
+- group() : crea un nuevo grupo o sub-grupos en linea en el registro de la consola web. Adicionalmente puede recibir como parametro el nombre del grupo
+
+- groupEnd() : para salir de una agrupación
+
+- groupCollapsed() : funciona exactamente igual que group . La diferencia es que para ver los elementos del grupo hay que darle click
+
+
+
+
+Funciones de Temporización:
+
+- time(): inicia un temporizador
+
+- timeLog() : registra el valor actual de un temporizador
+
+- timeEnd() : detiene un temporizador
+
+
+
+
+Cambiar el Color de Texto de la Consola:
+
+console.log("%cmanuel","color:white;padding:20px;background:black") : se puede cambiar color y;

@@ -1,0 +1,31 @@
+Capitulo 3
+
+// Conceptos Basicos de POO
+
+- Clase (fabrica de obejtos)
+
+- Constructor (funcion necesaria para pasar los atributos)
+
+- Atributo
+
+- objeto
+
+- metodo (a si se le llama a una funcion que se encuentre dentro de la clase [fuera de la clase se llama funcion])
+
+- instanciación (como inicializar cada objeto determinado)
+
+
+
+// Caracteristicas de la POO
+
+- Abstracción
+- Modularidad (fraccionar por modulos el problema o code)
+- Encapsulamiento
+- Polimorfismo
+
+
+// Otros conceptos de POO
+
+- Herencia
+- Metodos estaticos
+- Metodos accesores (getters , setters)

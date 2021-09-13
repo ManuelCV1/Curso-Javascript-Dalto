@@ -1,0 +1,47 @@
+Objeto Math :
+
+
+Metodos del objeto Math:
+
+- sqrt() : raiz cuadrada
+
+- cbrt() : raiz cubica
+
+- max() : devuelve el numero más grande de los insertados como parametro [sólo acepta numeros, no arrays , etc]
+
+- min () : devuelve el numero más pequeños de los insertados como parametro [sólo acepta numeros, no arrays , etc]
+
+- random() : devuelve un numero aleatorio entre 0 y 1 (sin incluir el 0 ni el 1)
+
+- round() : redondea un numero (quita decimales) hacia arriba a partir de .5 y hacia abajo para menores que .5
+
+- floor() : redondea un numero (quita decimales) siempre hacia abajo
+
+- fround() : devuelve la representación flotante de prescisión simple más cercana de un numero
+
+- trunc() : devuelve la parte entera de un numero eliminando los decimales (No redondea , los elimina)
+
+
+
+
+Propiedades del objeto Math:
+
+- PI : numero constante pi
+
+- SQRT1_2 : raiz cuadrada de 1/2
+
+- SQRT2 : raiz cuadrada de 2
+
+- E : constante de euler [base de los logaritmos naturales]
+
+- LN2 : logaritmo natural de 2
+
+- LN10 : logaritmo natural de 10
+
+- LOG2E : logaritmo de e con base 2
+
+- LOG10E : logaritmo de e con base 10 
+
+
+
+

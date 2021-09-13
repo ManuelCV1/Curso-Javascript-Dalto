@@ -1,0 +1,54 @@
+Capitulo 4 :
+
+Metodos de cadenas:
+
+Nota:
+
+let cadena = new String("cadena de prueba");
+
+Realmente una cadena de caracteres (string) es un obejto...
+
+let cadena = "cadena de prueba";
+
+Pero cuando lo escribimos así, JS lo interpreta automaticamente.
+
+
+
+
+- concat() : junta dos o mas cadenas y retorna una nueva.
+
+- startsWith() : si una cadena comienza con los caracteres de otra cadena , devuelve true , sino devuelve false.
+
+- endsWith() : si una cadena termina con los caracteres de otra cadena, devuelve true, sino devuelve false.
+
+- includes() : si una cadena puede encontrarse dentro de otra cadena, devuelve true, sino devuelve false.
+
+- indexOf() : si una cadena puede encontrarse dentro de otra cadena , devuelve el indice del primer caracter de la cadena, si no existe devuelve -1
+
+- lastIndexOf() : funciona igual que indexOf pero devuelve el ultimo indice del primer caracter de la cadena , si no existe , devuelve -1
+
+
+
+- padStart() [Propuesta de Estandar] : rellenar la cadena al principio con los caracteres deseados. Consta de dos parametros, el primero con la cantidad total de caracteres deseados (incluyendo los de la cadena original) y el segundo con los caracteres de relleno.  
+
+- padEnd() [Propuesta de Estandar] : funcional igual que el padStart pero rellena al final de la cadena. 
+
+- repeat() : devuelve la misma cadena , pero repetida la cantidad de veces indicada.
+
+
+
+- split() : divide la cadena como le pidamos y nos devuelve un array (el cual como todo array , podemos acceder a sus elementos).El ó los caracteres eligidos para dividir el string se eliminan y se crea el array.
+
+- substring() : nos retorna un pedazo de la cadena que seleccionamos. Y consta de dos parametros los cuales marcan el rango de seleccion.
+
+- toLowerCase(): convierte una cadena a minuscula
+
+- toUpperCase() : convierte una cadena a mayuscula
+
+- toString() : covierte a string un elemento
+
+- trim() : elimina los caracteres vacios del inicio y el final
+
+- trimEnd() : funciona igual que trim pero solo elimina los caracteres vacios del final
+
+- trimStart() : funciona igual que trim pero solo elimina los caracteres vacios del inicio

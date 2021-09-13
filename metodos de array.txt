@@ -1,0 +1,42 @@
+Metodos de array:
+
+Metodos Transformadores:
+
+- pop() : elimina el ultimo elemento del array y lo devuelve (el array original queda modificado).
+
+- shift() : elimina el primer elemento del array y lo devuelve (el array original queda modificado).
+
+- push() : agrega uno o varios elementos y devuelve la nueva longitud del array.
+
+- reverse() : invierte el orden de los elementos del array y devuelve tambien el array modificado (el array original queda modificado)
+
+- unshift() : agrega uno o varios elementos al inicio y devuelve la nueva longitud del array (el array original queda modificado)
+
+- sort() : ordena los elementos en orden alfa-numerico y devuelve tambien el array modificado (el array original queda modificado) 
+
+- splice() : elimina elementos existentes y/o agrega nuevos elementos. Los 2 primeros parametros indican el rango para añadir y/o eliminiar; el primer parametro establece el inicio donde se van añadir y/o eliminar los elementos y el segundo el ultimo elemento a eliminar (si no se desea eliminar elementos  entonces el valor del segundo parametro es cero y si se  desea modificar a partir del ultimo elemento , el primer parametro se pone en -1). El array original  queda modificado. 
+
+
+
+
+Metodos Accesores:
+
+- join() : transforma todos los elementos de la cadena a string y con el parametro se inserta la separacion deseada entre elementos (el array original no se modifica).
+
+- slice() : evuelve una parte del array, especificando el rango con los parametros (primero es el inicio , segundo es el final no incluido). Si sequiere seleccionar todos los elementos menos el ultimo , el segundo parametro es -1. Si se quiere seleccionar todos los elementos entonces se escribe un solo parametro de valor 0.
+
+
+
+Metodos Accesores que funcionan igual que con los metodos de string:
+
+- includes() : si un elemento (especificado en el parametro) se encuentra dentro del array devuelve true. 
+
+- indexOf() : si un elemento se encuentra dentro del array (especificado en el parametro)  devuelve el indice donde se encuentra la primera coincidencia, si no existe devuelve -1.
+
+- lastIndexOf() : si un elemento se encuentra dentro del array devuelve el indice donde se encuentra la ultima coincidencia, si no existe devuelve -1
+
+- toString() : convierte un elemento a string
+
+- filter() : ejecuta la funcion indicada una vez por cada elemento del array. El parametro de la funcion tendra como valor el elemento del array correspondiente al ciclo. Ademas filter nos permite crear un nuevo array con los elementos que retornen true en una determinada operacion
+
+- forEach() : funciona exactamente igual a filter pero sin la opacion adicional de poder crear un array con los valores true de alguna operacion.
